@@ -14,7 +14,8 @@ body {
 
 .calculator {
   background-color: white;
-  width: 400px;
+  width: 95%;
+  max-width: 400px;
   border-radius: 12px;
   box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.5);
 }
@@ -78,6 +79,10 @@ button:hover {
   filter: brightness(110%);
 }
 
+button:active {
+  transform: translateY(1px);
+}
+
 .operator {
   background: grey;
   color: white;
@@ -87,6 +92,10 @@ button:hover {
 .clear {
   background: tomato;
   color: white;
+}
+
+.clear:hover {
+  filter: brightness(90%);
 }
 
 .equal-sign {
